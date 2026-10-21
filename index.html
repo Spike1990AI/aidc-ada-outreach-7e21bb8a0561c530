@@ -47,9 +47,9 @@ mark.ask{background:#ffe08a;color:var(--navy);border-radius:4px;padding:1px 5px;
     <div class="box sm">(e) One follow-up</div><div class="arr down">&darr;</div>
     <div class="box sm stop">Then stop</div></div>
 </div>
-<div class="disc"><b>Every email carries this line:</b> &ldquo;We don&rsquo;t guarantee ADA compliance; we monitor for things that might get you flagged and fix fast.&rdquo; (the opt-out reply carries none)</div>
+<div class="disc"><b>Where the disclaimer lives:</b> the &ldquo;we don&rsquo;t guarantee ADA compliance; we monitor for things that might get you flagged and fix fast&rdquo; wording is in the <b>subscription agreement</b> (AIDC-15157), not in any email.</div>
 </section>
-<section class="card"><h2>2. Every email, in full</h2><p class="legend">Written as Steven (&ldquo;I&rdquo;). <mark class="ask">[ASK]</mark> = still to be supplied: <mark class="ask">{agreement_link}</mark> = the rolling monthly agreement in the portal&rsquo;s subscription section, <mark class="ask">{pay_link}</mark> = the payment link, <mark class="ask">{call_link}</mark> = a booking link (until it exists the line reads &ldquo;or just reply with a time that suits you&rdquo;). <span class="mf">{field}</span> = filled in per shop from its own scan. Only the first email, (c2) and (e) carry the business footer.</p>
+<section class="card"><h2>2. Every email, in full</h2><p class="legend">Written as Steven (&ldquo;I&rdquo;). <mark class="ask">[ASK]</mark> = still to be supplied: <mark class="ask">{agreement_link}</mark> = the rolling monthly agreement in the portal&rsquo;s subscription section, <mark class="ask">{pay_link}</mark> = the payment link, <mark class="ask">{call_link}</mark> = a booking link (until it exists the line reads &ldquo;or just reply with a time that suits you&rdquo;). <span class="mf">{field}</span> = filled in per shop from its own scan. Only the first email, (c2) and (e) carry the business footer. None of the emails carries the disclaimer (it is in the agreement).</p>
 <article class="email" id="e0"><header><h3>Email 1: free advice (no price)</h3><dl><dt>Trigger</dt><dd>Every shop in the weekly batch that has at least 2 usable findings in its own ADA scan</dd><dt>Timing</dt><dd>Weekly batch of 50; about 10 drafts a day; Steven presses send</dd></dl></header><p class="subj"><b>Subject:</b> <span class="mf">{shop_name}</span>: 3 accessibility fixes I spotted  (or, with only 2 usable findings: <span class="mf">{shop_name}</span>: 2 accessibility fixes I spotted)</p><pre class="body">Hi <span class="mf">{first_name}</span>,
 
 I ran a quick accessibility check on <span class="mf">{domain}</span> this week, on your home page and <span class="mf">{extra_pages_text}</span>. Three things stood out:
@@ -59,8 +59,6 @@ I ran a quick accessibility check on <span class="mf">{domain}</span> this week,
 3. <span class="mf">{line_3}</span>
 
 Most of these are small changes for whoever looks after the site, and they make it easier for every shopper to use, not only those with a disability.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.
 
 I&#x27;ve put the full results into a short report, page by page, with the fix for each one. Would you like me to send it over? Or if it&#x27;s easier, I can talk you through it in 15 minutes.
 
@@ -78,39 +76,25 @@ Yes, we can help. It&#x27;s $200 a month, on a rolling monthly agreement, so the
 
 If you&#x27;d like to go ahead, the agreement is here: <mark class="ask"><span class="mf">{agreement_link}</span></mark>, and you pay upfront each month here: <mark class="ask"><span class="mf">{pay_link}</span></mark>.
 
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.
-
 Happy to talk it through first: <mark class="ask"><span class="mf">{call_link}</span></mark>.</pre></article>
 <article class="email" id="eb1"><header><h3>(b1) Question: what does it cost?</h3><dl><dt>Trigger</dt><dd>They ask about price</dd><dt>Timing</dt><dd>Same day. One answer per question; several questions go in one reply</dd></dl></header><pre class="body">Hi <span class="mf">{first_name}</span>,
 
-It&#x27;s $200 a month, on a rolling monthly agreement, paid upfront each month. At the end of each month we test your site and fix anything that comes up, fast. You can stop at the end of any month.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.</pre></article>
+It&#x27;s $200 a month, on a rolling monthly agreement, paid upfront each month. At the end of each month we test your site and fix anything that comes up, fast. You can stop at the end of any month.</pre></article>
 <article class="email" id="eb2"><header><h3>(b2) Question: what do you check?</h3><dl><dt>Trigger</dt><dd>They ask what is tested</dd><dt>Timing</dt><dd>Same day, in the same reply as any other question</dd></dl></header><pre class="body">Hi <span class="mf">{first_name}</span>,
 
-At the end of each month we test your site against WCAG 2.1 AA, the accessibility standard most guidance points to, on desktop and phone. You get each issue in plain words, with how serious it is, and we fix what comes up. Automated checks only catch part of what can go wrong, so we mark anything that needs a person to look at it rather than guess.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.</pre></article>
+At the end of each month we test your site against WCAG 2.1 AA, the accessibility standard most guidance points to, on desktop and phone. You get each issue in plain words, with how serious it is, and we fix what comes up. Automated checks only catch part of what can go wrong, so we mark anything that needs a person to look at it rather than guess.</pre></article>
 <article class="email" id="eb3"><header><h3>(b3) Question: are we at legal risk?</h3><dl><dt>Trigger</dt><dd>They ask about lawsuits or legal risk</dd><dt>Timing</dt><dd>Same day. No legal claims: the answer points them to their own counsel</dd></dl></header><pre class="body">Hi <span class="mf">{first_name}</span>,
 
-I&#x27;m not a lawyer, so I can&#x27;t tell you what your legal position is; your own counsel is the right person for that. What I can do is show you exactly what&#x27;s on the site today and fix it, so you&#x27;re working from facts. The three things I mentioned are a good place to start.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.</pre></article>
+I&#x27;m not a lawyer, so I can&#x27;t tell you what your legal position is; your own counsel is the right person for that. What I can do is show you exactly what&#x27;s on the site today and fix it, so you&#x27;re working from facts. The three things I mentioned are a good place to start.</pre></article>
 <article class="email" id="eb4"><header><h3>(b4) Question: how long, when would you start?</h3><dl><dt>Trigger</dt><dd>They ask about timing</dd><dt>Timing</dt><dd>Same day</dd></dl></header><pre class="body">Hi <span class="mf">{first_name}</span>,
 
-Once the agreement is in place, we test your site at the end of each month and fix what comes up, fast. The first test also gives you the full list, in order of what matters most.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.</pre></article>
+Once the agreement is in place, we test your site at the end of each month and fix what comes up, fast. The first test also gives you the full list, in order of what matters most.</pre></article>
 <article class="email" id="ec"><header><h3>(c) Not now</h3><dl><dt>Trigger</dt><dd>They say &quot;not a priority&quot; or &quot;maybe later&quot;</dd><dt>Timing</dt><dd>Same day</dd></dl></header><pre class="body">Hi <span class="mf">{first_name}</span>,
 
-No problem at all, thanks for letting me know. If it&#x27;s ever useful, just reply here and I&#x27;ll send the report over.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.</pre></article>
+No problem at all, thanks for letting me know. If it&#x27;s ever useful, just reply here and I&#x27;ll send the report over.</pre></article>
 <article class="email" id="ec2"><header><h3>(c2) Nudge at 30 days</h3><dl><dt>Trigger</dt><dd>Thirty days after (c), ONLY if a fresh scan still finds at least 1 of the 3 original issues. If all 3 are fixed, nothing is sent</dd><dt>Timing</dt><dd>Once, 30 days after (c)</dd></dl></header><pre class="body">Hi <span class="mf">{first_name}</span>,
 
 I re-ran the quick check on <span class="mf">{domain}</span> this week. <span class="mf">{still_count}</span> of the 3 issues I mentioned last month are still there (<span class="mf">{still_list}</span>). The full report is still yours if you&#x27;d like it.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.
 
 
 --
@@ -120,8 +104,6 @@ AI Digital Consulting Ltd, 9 Corbets Tey Road, Castle Park, Upminster, RM14 2AP,
 <article class="email" id="ee"><header><h3>(e) No reply in 7 days: one follow-up, then stop</h3><dl><dt>Trigger</dt><dd>No reply to email 1 after 7 days</dd><dt>Timing</dt><dd>Once, 7 days after email 1. After this nothing more goes to that shop unless they reply</dd></dl></header><p class="subj"><b>Subject:</b> Following up: {original subject}</p><pre class="body">Hi <span class="mf">{first_name}</span>,
 
 Just checking this reached you. The full report for <span class="mf">{domain}</span> is ready if it&#x27;s useful, and I&#x27;m happy to send it over.
-
-To be clear: we don&#x27;t guarantee ADA compliance. We monitor for the things that might get your site flagged, and we fix them fast.
 
 
 --
